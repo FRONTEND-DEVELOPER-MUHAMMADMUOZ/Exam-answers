@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    max-width:1300px;
+    height: 5100px;
+    padding: 30px;
+    border: 1px solid black;    
+}
+
+.container1{
+    max-width:1300px;
+    height: 6400px;
+    padding: 30px;
+    border: 1px solid black;     
+}
+
+.container2{
+    max-width:1300px;
+    height: 9150px;
+    padding: 30px;
+    border: 1px solid black;     
+}
+
+.navbar{
+    width: 1200px;
+    height: 80px;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+
+li{
+    list-style: none;
+    font-weight: 800;
+    font-size: 20px;
+    color: black;
+}
+
+li:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+    text-decoration: none;
+    color: red;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.testlar{
+    width: 1200px;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.savol_warpper{
+    width: 400px;
+    height: auto;
+}
+
+.savollar{
+    width: 380px;
+    height: 110px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.savollar2{
+    width: 380px;
+    height: 145px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
